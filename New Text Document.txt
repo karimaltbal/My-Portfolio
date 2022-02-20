@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+
+	<link rel="stylesheet" href="css/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+	<link rel="stylesheet" href="css/font-awesome/font-awesome.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="css/swiper-bundle.min.css">
+	<link rel="stylesheet" href="css/contact/util.css">
+	<link rel="stylesheet" href="css/contact/main.css">
+
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+	<!-------------------------------------------------------------------------------------->
+
+
+
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<div class="container">
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="#">Home <span></span><span></span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Features</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Pricing</a>
+					</li>
+				</ul>
+			</div>
+
+			<a class="navbar-brand text-center" href="#">Portfolio</a>
+
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" aria-current="page" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Features</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Pricing</a>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+	</nav>
+
+	<!-------------------------------------------------------------------------------------->
+
+	<section class="header">
+		<div class="overlay"></div>
+		<div class="content">
+			<div class="heading">
+				<div class="head_info">
+					<h1>
+						<span class="main-span">HI,</span>
+					</h1>
+					<p id="txt_header"></p>
+				</div>
+				<div class="head_btn">
+					<button class="btn btn-danger m-2">Download CV</button>
+					<button class="btn btn-danger">Contact Me</button>
+				</div>
+			</div>
+		</div>
+		<div class="overlay2"></div>
+	</section>
+
+	<!-------------------------------------------------------------------------------------->
+
+
+	<!--start services-->
+	<section class="services">
+		<!--<div class="overlay3"></div>-->
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-12">
+					<div class="content-info">
+						<h2 class="font_main">About <span class="main-span">Me</span></h2>
+						<div class="border"></div>
+						<p class="font_child head-about">
+							HTI | Computer Science Department
+							Front-End developer with experience with new techniques and
+							always improves my skills in the field.
+						</p>
+						<p class="font_child head-profile">
+							I,M Front-End Developer, I have experience with HTML5, CSS3, Bootstrap, javascript, ES6,
+							Javascript framework (React.JS), Integrating API Endpoints, Postman API, JSON, AJAX and
+							RestFul API, Git, Github, UI & UX Designer, Adobe illustrator.<br>
+							Extra skills: python, MySQL and CCNA.<br>
+							Beginner: Django, Linux OS.
+						</p>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-12">
+					<div class="img_content">
+						<div class="main_img">
+							<img src="images/about/about.png" alt="..loading" />
+						</div>
+						<div class="sub_img">
+							<img src="images/about/dotted_light.png" alt="..loading" />
+						</div>
+					</div>
+				</div>
+
+				<!--<div class="col-md-4 ">
+								<div class="content-items text-center">
+									<div class="items shadow">
+										<i class="fa fa-hourglass-half"></i>
+										<h3 class="font_main">Profile</h3>
+										<div  class="font_child content-profile">
+											<ul class="list-unstyled">
+												<li><span class="main-span">Name:</span> Karim Ahmed Mohamed</li>
+												<li><span class="main-span">Date Of Birth:</span> 1 January 2000</li>
+												<li><span class="main-span">Address:</span> Nasr City, Cairo, Egypt</li>
+												<li><span class="main-span">Email:</span> altbalkarim@gmail.com</li>
+											</ul>
+										</div>
+									</div>
+									<div class="items shadow">
+									<i class="fa fa-bolt"></i>
+									<h3 class="font_main">Skills</h3>
+									<div class="content-skill">
+										<div><i class="skill fab fa-html5"></i>
+										  <h4 class="color_secondery">HTML</h4>
+										</div>
+									<div><i class="skill fab fa-css3-alt"></i>
+									  <h4 class="color_secondery">CSS</h4>
+									</div>
+									<div><i class="skill fab fa-js"></i>
+									<h4 class="color_secondery">Javascript</h4>
+								  </div>
+								  <div><i class="skill fab fa-bootstrap"></i>
+									<h4 class="color_secondery">Bootstrap</h4>
+								  </div>
+
+									<div><i class="skill"><img class="icon" src="./img/icons/json.svg" alt=""></i>
+									<h4 class="color_secondery">JSON</h4>
+								  </div>
+									<div><i class="skill"><img class="icon" src="./img/icons/ajax.svg" alt=""></i>
+									<h4 class="color_secondery">AJAX</h4>
+								  </div>
+
+									<div><i class="skill fab fa-github"></i>
+									<h4 class="color_secondery">Git & Github</h4>
+								  </div>
+									<div><i class="skill fab fa-python"></i>
+									<h4 class="color_secondery">Python</h4>
+									</div>
+									<div><i class="skill"><img class="icon" src="./img/icons/photoshop.svg" alt=""></i>
+									  <h4 class="color_secondery">Photoshop</h4>
+									  </div>
+									<div><i class="skill fab fa-php"></i>
+									<h4 class="color_secondery">PHP</h4>
+									</div>
+									<div><i class="skill fab fa-java"></i>
+									  <h4 class="color_secondery">Java</h4>
+									  </div>
+									<div><i class="skill"><img class="icon" src="./img/icons/illustrator.svg" alt=""></i>
+									<h4 class="color_secondery">Illustrator</h4>
+									</div>
+								  </div>
+								</div>
+								</div>
+							</div>
+							<div class="col-md-3 marginn">
+								<div class="content-items text-center">
+									<div class="items shadow">
+										<i class="fa fa-briefcase"></i>
+										<h3 class="font_main">Education</h3>
+										<p class="font_child content-profile">Bachelor's degree, Computer Science Higher Technological Institute 10th of Ramadan</p>
+									</div>
+									<div class="items shadow">
+									<i class="fa fa-envelope-open-o"></i>
+									<h3 class="font_main">Achievement</h3>
+									<div class="font_child content-profile">
+										<ol>
+											<li>
+												web development challenger Certificate from Udacity / January 2021
+											</li>
+											<li>
+												Web Development & Coding Certificate from Coursera / September 2021
+											</li>
+										</ol>
+									</div>
+								</div>
+								</div>
+							</div>-->
+			</div>
+		</div>
+		<div class="overlay2"></div>
+	</section>
+	<!--end Services-->
+
+	<!-------------------------------------------------------------------------------------->
+
+	<section class="defintion">
+		<div class="container">
+			<div class="d-flex align-items-start">
+				<div class="container">
+
+					<div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
+						aria-orientation="vertical">
+						<button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
+							data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
+							aria-selected="true">Parsonal data</button>
+						<button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
+							data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile"
+							aria-selected="false">skills</button>
+						<button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill"
+							data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages"
+							aria-selected="false">Certificate</button>
+						<button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill"
+							data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings"
+							aria-selected="false">Settings</button>
+					</div>
+					<div class="tab-content" id="v-pills-tabContent">
+						<div class="tab-pane fade show Parsonal-data active" id="v-pills-home" role="tabpanel"
+							aria-labelledby="v-pills-home-tab">
+							<div class="row">
+								<div class="col-md-6 col-12">
+									<div class="info-prasonal">
+										Hi! My name is karim Ahmed. I am a Front-End Developer, and I'm very passionate
+										and dedicated to my work. With 2 years experience as a professional Web
+										developer, I have acquired the skills and knowledge necessary to make your
+										project a success.
+									</div>
+								</div>
+								<div class="col-md-6 col-12">
+									<div class="item-prasonal">
+										<ul class="lidt-unstyled">
+											<li>Birthday: 01.07.1990</li>
+											<li>Location: 44 Place, Plano, USA</li>
+											<li>Phone: +77 022 177 05 05</li>
+											<li>Mail: mymail@gmail.com</li>
+											<li>Age: 30</li>
+											<li>Degree: Master</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane fade Parsonal-skills" id="v-pills-profile" role="tabpanel"
+							aria-labelledby="v-pills-profile-tab">
+							<div class="row">
+								<div class="col-md-6 col-12">
+									<div class="img-skills">
+										<img src="images/definition/img_skills.png" alt="" />
+									</div>
+								</div>
+								<div class="col-md-6 col-12">
+									<div class="item-skills">
+										<ul class="lidt-unstyled">
+											<li>html5</li>
+											<li>css3</li>
+											<li>JavaScript</li>
+											<li>BootStrap</li>
+											<li>React</li>
+											<li>API</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane fade" id="v-pills-messages" role="tabpanel"	aria-labelledby="v-pills-messages-tab">
+							<!------------------------------------------------------------->
+							<!-- resume Section
+							================================================== -->
+							<section id="resume" class="grey-section">
+								<div class="container">
+
+									<div class="row resume-timeline">
+										<div class="col-twelve">
+											<div class="timeline-wrap">
+												<div class="timeline-block">
+													<div class="timeline-ico">
+														<i class="fa fa-graduation-cap"></i>
+													</div>
+													<div class="timeline-header">
+														<h3>UI Designer</h3>
+														<p>July 2015 - Present</p>
+													</div>
+													<div class="timeline-content">
+														<h4>Awesome Studio</h4>
+														<p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi
+															cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident
+															cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est
+															occaecat nisi.</p>
+													</div>
+												</div> <!-- /timeline-block -->
+
+												<div class="timeline-block">
+													<div class="timeline-ico">
+														<i class="fa fa-graduation-cap"></i>
+													</div>
+													<div class="timeline-header">
+														<h3>Front-end Developer</h3>
+														<p>July 2014 - June 2015</p>
+													</div>
+
+													<div class="timeline-content">
+														<h4>Super Cool Agency</h4>
+														<p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi
+															cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident
+															cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est
+															occaecat nisi incididunt.</p>
+													</div>
+
+												</div> <!-- /timeline-block -->
+
+												<div class="timeline-block">
+
+													<div class="timeline-ico">
+														<i class="fa fa-graduation-cap"></i>
+													</div>
+
+													<div class="timeline-header">
+														<h3>Web Designer</h3>
+														<p>May 2013 - June 2014</p>
+													</div>
+
+													<div class="timeline-content">
+														<h4>Great Designs Studio</h4>
+														<p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi
+															cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident
+															cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est
+															occaecat nisi incididunt.</p>
+													</div>
+
+												</div> <!-- /timeline-block -->
+											</div> <!-- /timeline-wrap -->
+										</div> <!-- /col-twelve -->
+									</div> <!-- /resume-timeline -->
+
+								</div>
+							</section> <!-- /features -->
+
+						</div>
+						<div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+							aria-labelledby="v-pills-settings-tab">...</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<hr/>
+	<!-------------------------------------------------------------------------------------->
+	<section class="Portofolio section hidden" id="portofolio">
+		<div class="container">
+			<div class="row">
+				<div class="section-title">
+					<h2>Projects</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="Portofolio-filter">
+					<button type="button " class="active" data-filter="all"> All </button>
+					<button type="button " data-filter="Web-Design">Web Design</button>
+					<button type="button " data-filter="Html-Css"> Html/Css </button>
+					<button type="button" data-filter="bootstrap"> bootstrap </button>
+				</div>
+			</div>
+
+			<div class="row ">
+				<!--    Portofolio-item    -->
+				<div class="col-md-4 mrg-bottom" data-category="Web-Design">
+					<div class="Portofolio-item-inner shadow-dark">
+						<section class="sub_projects">
+
+							<div class="product">
+								<div class="imgbox"> <img src="images/Projects/Car Relant/2.png"> </div>
+								<div class="specifies">
+									<div class="price">
+										<span class="main-span">Car-Rental System</span>
+										<i class="fa fa-search-plus btn_zoom" id="btn_1"></i>
+									</div>
+									<label>Idea:</label>
+									<ul class="content">
+										<li>
+											Car rental site that initially contains a login page and then offers many
+											services.
+										</li>
+									</ul>
+									<label class="mrg-up">Languages used:</label>
+									<ul class="colors">
+										<li>HTML5</li>
+										<li>CSS3</li>
+										<li>BootStrap</li>
+										<li>JavaScript</li>
+									</ul>
+									<a class="btn btn-primary" href="https://karimaltbal.github.io/Car-Rental_Project/"
+										target="_blanck">Demo</a>
+								</div>
+							</div>
+
+						</section>
+					</div>
+				</div>
+
+				<!--    Portofolio-item End   -->
+
+				<!--    Portofolio-item    -->
+
+				<div class="col-md-4 mrg-bottom" data-category="Html-Css">
+					<div class="Portofolio-item-inner shadow-dark">
+						<section class="sub_projects">
+
+							<div class="product">
+								<div class="imgbox"> <img src="images/Projects/creat table/2.png"> </div>
+								<div class="specifies">
+									<div class="price">
+										<span class="main-span">Create your schedule</span>
+										<i class="fa fa-search-plus btn_zoom" id="btn_2"></i>
+									</div>
+									<label>Idea:</label>
+									<ul class="content">
+										<li>
+											Create your schedule: It is a system that creates a student enrollment
+											schedule with all available possibilities.
+										</li>
+									</ul>
+									<label class="mrg-up">Languages used:</label>
+									<ul class="colors">
+										<li>HTML5</li>
+										<li>CSS3</li>
+										<li>BootStrap</li>
+										<li>JavaScript</li>
+									</ul>
+									<a class="btn btn-primary" href="https://karimaltbal.github.io/Car-Rental_Project/"
+										target="_blanck">Demo</a>
+								</div>
+							</div>
+
+						</section>
+					</div>
+				</div>
+
+				<!--    Portofolio-item End   -->
+
+				<!--    Portofolio-item    -->
+
+				<div class="col-md-4 mrg-bottom" data-category="Web-Design">
+					<div class="Portofolio-item-inner shadow-dark">
+						<section class="sub_projects">
+
+							<div class="product">
+								<div class="imgbox"> <img src="images/Projects/Car Relant/2.png"> </div>
+								<div class="specifies">
+									<div class="price">
+										<span class="main-span">Share-photos System</span>
+										<i class="fa fa-search-plus btn_zoom" id="btn_3"></i>
+									</div>
+									<label>Idea:</label>
+									<ul class="content">
+										<li>
+											Image sharing: A system whereby one person can upload all the images on the
+											site only once, and then all of their colleagues can download these images.
+										</li>
+									</ul>
+									<label class="mrg-up">Languages used:</label>
+									<ul class="colors">
+										<li>HTML5</li>
+										<li>CSS3</li>
+										<li>BootStrap</li>
+										<li>JavaScript</li>
+									</ul>
+									<a class="btn btn-primary" href="https://karimaltbal.github.io/Share-Photo_Project/"
+										target="_blanck">Demo</a>
+								</div>
+							</div>
+
+						</section>
+					</div>
+				</div>
+				<!--    Portofolio-item End   -->
+
+				<!--    Portofolio-item    -->
+				<div class="col-md-4 mrg-bottom" data-category="Html-Css">
+					<div class="Portofolio-item-inner shadow-dark">
+						<section class="sub_projects">
+
+							<div class="product">
+								<div class="imgbox"> <img src="images/Projects/Sing Song/1.png"> </div>
+								<div class="specifies">
+									<div class="price">
+										<span class="main-span">Sing-Song Website</span>
+										<i class="fa fa-search-plus btn_zoom" id="btn_4"></i>
+									</div>
+									<label>Idea:</label>
+									<ul class="content">
+										<li>
+											simple website provides a simple entertainment service and is listening to
+											songs.
+										</li>
+									</ul>
+									<label class="mrg-up">Languages used:</label>
+									<ul class="colors">
+										<li>HTML5</li>
+										<li>CSS3</li>
+										<li>BootStrap</li>
+										<li>JavaScript</li>
+									</ul>
+									<a class="btn btn-primary" href="https://karimaltbal.github.io/Sing-song_website/"
+										target="_blanck">Demo</a>
+								</div>
+							</div>
+
+						</section>
+					</div>
+				</div>
+				<!--    Portofolio-item End   -->
+
+			</div>
+		</div>
+	</section>
+
+	<!----------------------->
+	<!-- model zoom image screen  -->
+	<section class="Building-registration-screen text-center" id="zoom_image">
+		<div class="ovarlay" id="ovarlay"></div>
+		<div class="content-all-input">
+			<!----------------------->
+			<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-indicators">
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+						aria-current="true" aria-label="Slide 1"></button>
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+						aria-label="Slide 2"></button>
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+						aria-label="Slide 3"></button>
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+						aria-label="Slide 4"></button>
+				</div>
+				<div class="carousel-inner">
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+					data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+					data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+
+		</div>
+	</section>
+	<!------------------------>
+
+	<hr>
+
+	<!-------------------------------------------------------------------------------------->
+
+	<!--start app-->
+	<section class="app">
+		<div class="overlay3"></div>
+
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-7">
+					<section class="content-image" data-aos="fade-down" data-aos-easing="ease-in-sine"
+						data-aos-offset="130">
+						<div class="swiper-container review-slider">
+							<div class="swiper-wrapper">
+
+								<div class="swiper-slide slide">
+									<div class="user">
+										<img src="images/app/2.jpg" alt="">
+									</div>
+								</div>
+
+								<div class="swiper-slide slide">
+									<div class="user">
+										<img src="images/app/1.jpg" alt="">
+									</div>
+								</div>
+
+								<div class="swiper-slide slide">
+									<div class="user">
+										<img src="images/app/10.jpg" alt="">
+									</div>
+								</div>
+
+								<div class="swiper-slide slide">
+									<div class="user">
+										<img src="images/app/9.jpg" alt="">
+									</div>
+								</div>
+
+								<div class="swiper-slide slide">
+									<div class="user">
+										<img src="images/app/8.jpg" alt="">
+									</div>
+								</div>
+
+								<div class="swiper-slide slide">
+									<div class="user">
+										<img src="images/app/7.jpg" alt="">
+									</div>
+								</div>
+
+								<div class="swiper-slide slide">
+									<div class="user">
+										<img src="images/app/6.jpg" alt="">
+									</div>
+								</div>
+
+								<div class="swiper-slide slide">
+									<div class="user">
+										<img src="images/app/5.jpg" alt="">
+									</div>
+								</div>
+
+								<div class="swiper-slide slide">
+									<div class="user">
+										<img src="images/app/4.jpg" alt="">
+									</div>
+								</div>
+
+								<div class="swiper-slide slide">
+									<div class="user">
+										<img src="images/app/3.jpg" alt="">
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</section>
+				</div>
+
+				<div class="col-md-4">
+					<div class="info-app" data-aos="fade-up" data-aos-easing="ease-in-sine" data-aos-offset="130">
+						<h3 class="font_main">شاشة التطبيق</h3>
+						<div class="border"></div>
+						<p class="font_child">
+							معرض لبعض الشاشات التى تخص تطبيق السكن الجامعى للمعهد التكنولوجى العالى على جميع انواع
+							الأجهزة الألكترونية.
+						</p>
+					</div>
+					<div class="info-app">
+						<h2 class="font_main">تطبيقنا متاح لأي جهاز قم بتنزيله الآن</h2>
+						<div class="border"></div>
+						<p class="font_child">
+							تثبيت تطبيق السكن الجامعى للمعهد التكنولوجى العالى على أى من الأجهزة الالكترونية الأن.
+						</p>
+						<div>
+							<a href="#">
+								<img src="images/app/download/download.webp">
+							</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<div class="overlay2"></div>
+	</section>
+	<!--end app-->
+
+
+	<!------------------------------------------------------------------------------->
+
+	<!--start explain by video section-->
+	<section class="explain-by-video">
+		<div class="heading text-center">
+			<h2 class="font_main">مساعده بتقنيه الفيديو</h2>
+			<div class="border"></div>
+			<p class="font_child">الدعم الفني هو خدمة تقدم المساعدة للطلاب عند الحاجة ، في أي مكان وفي أي وقت.</p>
+		</div>
+		<div class="all">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-4 col-12 content-links">
+						<div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist"
+							aria-orientation="vertical">
+							<a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home"
+								role="tab" aria-controls="v-pills-home" aria-selected="true">
+								<div class="link-item">
+									<div class="row">
+										<div class="col-md-4 col-3">
+											<img src="media/photo/1.png">
+										</div>
+										<div class="col-md-8 col-9">
+											<p class="font_child">كيفية رفع ايصال دفع المصاريف؟</p>
+										</div>
+									</div>
+								</div>
+							</a>
+
+							<a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile"
+								role="tab" aria-controls="v-pills-profile" aria-selected="false">
+								<div class="link-item">
+									<div class="row">
+										<div class="col-md-4 col-3">
+											<img src="media/photo/2.png">
+										</div>
+										<div class="col-md-8 col-9">
+											<p class="font_child">كيفية طلب استضافة صديق او قريب؟</p>
+										</div>
+									</div>
+								</div>
+							</a>
+
+							<a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages"
+								role="tab" aria-controls="v-pills-messages" aria-selected="false">
+								<div class="link-item">
+									<div class="row">
+										<div class="col-md-4 col-3">
+											<img src="media/photo/3.png">
+										</div>
+										<div class="col-md-8 col-9">
+											<p class="font_child">كيفية رفع شكوى الى الادارة؟</p>
+										</div>
+									</div>
+								</div>
+							</a>
+
+							<a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings"
+								role="tab" aria-controls="v-pills-settings" aria-selected="false">
+								<div class="link-item">
+									<div class="row">
+										<div class="col-md-4 col-3">
+											<img src="media/photo/4.png">
+										</div>
+										<div class="col-md-8 col-9">
+											<p class="font_child">كيفية رفع اقرار عذر؟</p>
+										</div>
+									</div>
+								</div>
+							</a>
+
+						</div>
+					</div>
+
+					<div class="col-md-8 col-12 content-videos">
+						<div class="tab-content" id="v-pills-tabContent">
+							<div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+								aria-labelledby="v-pills-home-tab">
+								<video controls width="100%" height="100%">
+									<source src="media/1.mp4" type="video/mp4">
+								</video>
+							</div>
+							<div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+								aria-labelledby="v-pills-profile-tab">
+								<video controls width="100%" height="100%">
+									<source src="media/2.mp4" type="video/mp4">
+								</video>
+							</div>
+							<div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+								aria-labelledby="v-pills-messages-tab">
+								<video controls width="100%" height="100%">
+									<source src="media/3.mp4" type="video/mp4">
+								</video>
+							</div>
+							<div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+								aria-labelledby="v-pills-settings-tab">
+								<video controls width="100%" height="100%">
+									<source src="media/4.mp4" type="video/mp4">
+								</video>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+	<!--end explain by video section-->
+
+
+	<!-------------------------------------------------------------------------------------->
+
+	<div class="bg-contact100" style="background-image: url('images/contact/bg-01.jpg');">
+		<div class="container-contact100">
+			<div class="wrap-contact100">
+				<div class="contact100-pic js-tilt" data-tilt>
+					<img src="images/contact/undraw-contact.svg" alt="IMG">
+				</div>
+
+				<form class="contact100-form validate-form">
+					<span class="contact100-form-title">
+						Get in touch
+					</span>
+
+					<div class="wrap-input100 validate-input" data-validate="Name is required">
+						<input class="input100" type="text" name="name" placeholder="Name">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-user" aria-hidden="true"></i>
+						</span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
+						<input class="input100" type="text" name="email" placeholder="Email">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate="Message is required">
+						<textarea class="input100" name="message" placeholder="Your Comment...."></textarea>
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="container-contact100-form-btn">
+						<button class="contact100-form-btn">
+							Send
+						</button>
+					</div>
+				</form>
+			</div>
+			<div class="overlay2"></div>
+		</div>
+	</div>
+
+
+<!-- Portofolio Section  -->
+
+<section class="Portofolio  section hidden" id="portofolio"> 
+	<div class="container">
+	  <div class="row">
+		<div class="section-title padd-15">
+		  <h2> Portofolio</h2>
+		</div>
+	  </div>
+	  <div class="row">
+		<div class="Portofolio-filter padd-15">
+		  <button type="button " class="active"  data-filter="all" > All  </button>
+		  <button type="button "  data-filter="Web-Design" >Web Design</button>
+		  <button type="button "  data-filter="Html-Css" > Html/Css </button>
+		  <button type="button"  data-filter="bootstrap" > bootstrap </button>
+		</div>
+	  </div>
+	  <div class="row ">
+		<!--    Portofolio-item    -->
+		<div class="Portofolio-item  padd-15 " data-category="Web-Design" >
+		  <div class="Portofolio-item-inner shadow-dark">
+			<div class="Portofolio-img">
+			  <a href=""><img src="images/webProjects  (1).jpg" alt=""> </a>
+			</div>
+			<div class="Portofolio-info">
+			  <h4>Web Design</h4>
+			  <div class="icon">
+				<i class="ico4 fa fa-search"></i>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  
+			  <!--    Portofolio-item End   -->
+  
+				   <!--    Portofolio-item    -->
+	  
+		<div class="Portofolio-item  padd-15 " data-category="Html-Css" >
+		  <div class="Portofolio-item-inner shadow-dark">
+			<div class="Portofolio-img">
+			 <a href=""> <img src="images/webProjects  (2).jpg" alt=""></a>
+			</div>
+			<div class="Portofolio-info">
+			  <h4>Html/Css</h4>
+			  <div class="icon">
+				<i class="ico4 fa fa-search"></i>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  
+			  <!--    Portofolio-item End   -->
+  
+				   <!--    Portofolio-item    -->
+				   
+		<div class="Portofolio-item  padd-15 " data-category="Web-Design" >
+		  <div class="Portofolio-item-inner shadow-dark">
+			<div class="Portofolio-img">
+			  <a href=""><img src="images/webProjects  (3).jpg" alt=""></a>
+			</div>
+			<div class="Portofolio-info">
+			  <h4>Web Design</h4>
+			  <div class="icon">
+				<i class="ico4 fa fa-search"></i>
+			  </div>
+			</div>
+		  </div>
+		</div>
+			  <!--    Portofolio-item End   -->
+  
+				   <!--    Portofolio-item    -->
+		<div class="Portofolio-item  padd-15 " data-category="Html-Css" >
+		  <div class="Portofolio-item-inner shadow-dark">
+			<div class="Portofolio-img">
+			  <a href=""><img src="images/webProjects  (4).jpg" alt=""> </a>
+			</div>
+			<div class="Portofolio-info">
+			  <h4>Html/Css</h4>
+			  <div class="icon">
+				<i class="ico4 fa fa-search"></i>
+			  </div>
+			</div>
+		  </div>
+		</div>
+			  <!--    Portofolio-item End   -->
+  
+				   <!--    Portofolio-item    -->
+		<div class="Portofolio-item  padd-15 " data-category="bootstrap" >
+		  <div class="Portofolio-item-inner shadow-dark">
+			<div class="Portofolio-img">
+			  <a href=""><img src="images/webProjects  (5).jpg" alt=""> </a>
+			</div>
+			<div class="Portofolio-info">
+			  <h4>Bootstrap</h4>
+			  <div class="icon">
+				<i class="ico4 fa fa-search"></i>
+			  </div>
+			</div>
+		  </div>
+		</div>
+			  <!--    Portofolio-item End   -->
+  
+				   <!--    Portofolio-item    -->
+		<div class="Portofolio-item  padd-15 " data-category="Web-Design" >
+		  <div class="Portofolio-item-inner shadow-dark">
+			<div class="Portofolio-img"> 
+			  <a href=""><img src="images/webProjects  (6).jpg" alt=""> </a>
+			</div>
+			<div class="Portofolio-info">
+			  <h4>Web Design</h4>
+			  <div class="icon">
+				<i class="ico4 fa fa-search"></i>
+			  </div>
+			</div>
+		  </div>
+		</div>
+			  <!--    Portofolio-item End   -->
+  
+	  </div>
+	</div>
+  </section>
+  
+  <!-- Portofolio Section End -->
+  
+	<!-------------------------------------------------------------------------------------->
+	<div style="height: 100px;"></div>
+	<footer>
+		<svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+			viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+			<defs>
+				<path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+			</defs>
+			<g class="parallax">
+				<use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(2,2,29,0.7)" />
+				<use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(2,2,29,0.5)" />
+				<use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(2,2,29,0.3)" />
+				<use xlink:href="#gentle-wave" x="48" y="7" fill=" rgb(2, 2, 29)" />
+			</g>
+		</svg>
+		<div class="icons">
+			<i class="fa fa-facebook"></i>
+			<i class="fa fa-twitter"></i>
+			<i class="fa fa-linkedin"></i>
+			<i class="fa fa-instagram"></i>
+		</div>
+		<ul class="nav">
+			<li>الالتحاق بالسكن</li>
+			<li>استعلام مصاريف</li>
+			<li>الطلبات</li>
+			<li>الشكاوى والإبلاغات</li>
+			<li>اقرار ولى أمر</li>
+			<li>الإستبيان</li>
+		</ul>
+		<p>المعهد التكنولوجى العالى © 2021 | جميع الحقوق محفوظة</p>
+	</footer>
+	<!--end footar-->
+	<!-------------------------------------------------------------------------------------->
+
+	<!-- Back to top button -->
+	<section>
+		<button type="button" class="btn btn-dark btn-floating btn-lg btn-top" id="btn-back-to-top">
+			<i class="fa fa-arrow-up"></i>
+		</button>
+	</section>
+	<!-- Back to top button -->
+
+
+	<!-------------------------------------------------------------------------------------->
+	<script src="js/jquery/jquery-3.2.1.min.js"></script>
+	<script src="css/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+	<script src="js/swiper-bundle.min.js"></script>
+
+	<script src="js/main.js"></script>
+</body>
+
+</html>
