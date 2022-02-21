@@ -307,7 +307,13 @@ hr {
   border-radius: 5px;
   box-shadow: 2px 2px 5px #000000ab;
 }
-
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  .defintion .Parsonal-skills .item-skills ul { padding: 0;}
+  .defintion .Parsonal-skills .item-skills ul li { width: calc( 33% - 12px);
+    font-size: 10px;
+    margin: 6px;  } 
+}
 /*
     width: 29.33333%;
     // border: 1px solid #2b3d65; 
@@ -336,6 +342,11 @@ hr {
     height: 100%;
     width: 80%;
     margin: auto;
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  #resume .info-prasonal{ width: 100%;}
 }
 #resume .info-prasonal ol li{ color: #a395e9;}
 #resume .resume-header { text-align: center;}
@@ -453,7 +464,10 @@ hr {
   margin-bottom: 20px;
   font-family: "Balsamiq Sans";
 }
-
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  .defintion .nav-pills .nav-link{ width: 100%;}
+}
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link { background: linear-gradient(547deg, #447081 0%, #ffffff00 100%) !important;}
 .flex-column { flex-direction: unset !important;}
 
