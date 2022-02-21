@@ -4,7 +4,9 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<!-- Favicon icon -->
+	<link href='https://www.rawpixel.com/sites/all/themes/custom/rawpixel_theme/rawpixel.ico' rel='shortcut icon' type='image/vnd.microsoft.icon'/>
+	<title>My Portfolio</title>
 
 
 	<link rel="stylesheet" href="css/bootstrap-5.0.2-dist/css/bootstrap.min.css">
@@ -84,7 +86,10 @@
 					<p id="txt_header"></p>
 				</div>
 				<div class="head_btn">
-					<button class="btn btn-danger m-2">Download CV</button>
+					<a href="media/CV/CV_Karim Ahmed_Mohamed Fathy.pdf" target="_blanck" download class="btn btn-danger m-2">
+						Download CV 
+						<i class="fa fa-download"></i> 
+					</a>
 					<button class="btn btn-danger">Contact Me</button>
 				</div>
 			</div>
@@ -663,8 +668,8 @@
 									<ul class="colors">
 										<li>HTML5</li>
 										<li>CSS3</li>
-										<li>BootStrap</li>
 										<li>JavaScript</li>
+										<li>React</li>
 									</ul>
 									<a class="btn btn-primary" href="https://karimaltbal.github.io/Sing-song_website/"
 										target="_blanck">Demo</a>
@@ -737,98 +742,90 @@
 			<div class="container">
 				<div class="row">
 
-					<div class="col-md-4 col-12 content-links">
-						<div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-							<a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">
-								<div class="link-item">
-									<div class="row">
-										<div class="col-md-4 col-3">
-											<img src="media/photo/header1.png">
+						<!--<div class="d-flex align-items-start">-->
+							<div class="col-md-4 col-12 content-links">
+								<div class="nav flex-column nav-pills " id="v-pills-tab" role="tablist" aria-orientation="vertical">
+									<button class="nav-link active" id="v-pills-project_1-tab" data-bs-toggle="pill" data-bs-target="#v-pills-project_1" type="button" role="tab" aria-controls="v-pills-project_1" aria-selected="true">
+										<div class="link-item">
+											<div class="row">
+												<div class="col-md-4 col-3">
+													<img src="media/photo/header1.png">
+												</div>
+												<div class="col-md-8 col-9">
+													<p class="font_child">university housing system</p>
+												</div>
+											</div>
 										</div>
-										<div class="col-md-8 col-9">
-											<p class="font_child">university housing system</p>
+									</button>
+									<button class="nav-link" id="v-pills-project_2-tab" data-bs-toggle="pill" data-bs-target="#v-pills-project_2" type="button" role="tab" aria-controls="v-pills-project_2" aria-selected="false">
+										<div class="link-item">
+											<div class="row">
+												<div class="col-md-4 col-3">
+													<img src="media/photo/header3.png">
+												</div>
+												<div class="col-md-8 col-9">
+													<p class="font_child">Arab market system | React</p>
+												</div>
+											</div>
+										</div>	
+									</button>
+									<!--<button class="nav-link" id="v-pills-project_3-tab" data-bs-toggle="pill" data-bs-target="#v-pills-project_3" type="button" role="tab" aria-controls="v-pills-project_3" aria-selected="false">
+										<div class="link-item">
+											<div class="row">
+												<div class="col-md-4 col-3">
+													<img src="media/photo/header3.png">
+												</div>
+												<div class="col-md-8 col-9">
+													<p class="font_child">Arab market system | React</p>
+												</div>
+											</div>
 										</div>
-									</div>
+									</button>
+									<button class="nav-link" id="v-pills-project_4-tab" data-bs-toggle="pill" data-bs-target="#v-pills-project_4" type="button" role="tab" aria-controls="v-pills-project_4" aria-selected="false">
+										<div class="link-item">
+											<div class="row">
+												<div class="col-md-4 col-3">
+													<img src="media/photo/header3.png">
+												</div>
+												<div class="col-md-8 col-9">
+													<p class="font_child">Arab market system | React</p>
+												</div>
+											</div>
+										</div>
+									</button>-->
 								</div>
-							</a>
+							</div>
 
-							<a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">
-								<div class="link-item">
-									<div class="row">
-										<div class="col-md-4 col-3">
-											<img src="media/photo/header2.png">
-										</div>
-										<div class="col-md-8 col-9">
-											<p class="font_child">Create your schedule</p>
-										</div>
+							<div class="col-md-8 col-12 content-videos">
+								<div class="tab-content" id="v-pills-tabContent">
+									<div class="tab-pane fade show active" id="v-pills-project_1" role="tabpanel" aria-labelledby="v-pills-project_1-tab">
+										<video controls width="100%" height="100%">
+											<source src="media/project_video.mp4" type="video/mp4">
+										</video>
 									</div>
-								</div>
-							</a>
-
-							<a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">
-								<div class="link-item">
-									<div class="row">
-										<div class="col-md-4 col-3">
-											<img src="media/photo/header3.png">
-										</div>
-										<div class="col-md-8 col-9">
-											<p class="font_child">Arab market system | React</p>
-										</div>
+									<div class="tab-pane fade" id="v-pills-project_2" role="tabpanel" aria-labelledby="v-pills-project_2-tab">
+										<video controls width="100%" height="100%">
+											<source src="media/react.wmv" type="video/mp4">
+										</video>
 									</div>
-								</div>
-							</a>
-
-							<!--<a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">
-								<div class="link-item">
-									<div class="row">
-										<div class="col-md-4 col-3">
-											<img src="media/photo/4.png">
-										</div>
-										<div class="col-md-8 col-9">
-											<p class="font_child">كيفية رفع اقرار عذر؟</p>
-										</div>
+									<!--<div class="tab-pane fade" id="v-pills-project_3" role="tabpanel" aria-labelledby="v-pills-project_3-tab">
+										<video controls width="100%" height="100%">
+											<source src="media/2.mp4" type="video/mp4">
+										</video>
 									</div>
+									<div class="tab-pane fade" id="v-pills-project_4" role="tabpanel" aria-labelledby="v-pills-project_4-tab">
+										<video controls width="100%" height="100%">
+											<source src="media/3.mp4" type="video/mp4">
+										</video>
+									</div>-->
 								</div>
-							</a>-->
-
-						</div>
+							</div>
+						<!--</div>-->
 					</div>
-
-					<div class="col-md-8 col-12 content-videos">
-						<div class="tab-content" id="v-pills-tabContent">
-							<div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-									<video controls width="100%" height="100%">
-										<source src="media/project_video.mp4" type="video/mp4">
-									</video>				
-							</div>
-							<div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-									<video	 controls width="100%" height="100%">
-										<source src="media/2.mp4" type="video/mp4">
-									</video>			
-							</div>
-							<div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-									<video controls width="100%" height="100%">
-										<source src="media/3.mp4" type="video/mp4">
-									</video>			
-							</div>
-							<!--<div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-									<video controls width="100%" height="100%">
-										<source src="media/4.mp4" type="video/mp4">
-									</video>			
-							</div>-->
-						</div>
-					</div>
-				  </div>
-			  </div>
-
-		  </div>
+			  	</div>
+			</div>
 	  </section>
   <!--end explain by video section-->
-
-
-
-
-
 
 
 

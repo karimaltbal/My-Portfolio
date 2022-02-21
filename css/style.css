@@ -54,7 +54,7 @@ hr {
 .overlay2 {
   position: absolute;
   right: 0;
-  bottom: 0px;
+  bottom: -1px;
   transform: rotate(180deg);
   height: 50%;
   width: 100%;
@@ -215,7 +215,10 @@ hr {
 
 .header .content .heading h1 {font-weight: bold; font-size: 50px;}
 .header .content .heading p {    margin: 10px 0 30px;    font-weight: bold; color: antiquewhite; letter-spacing: 2px; font-family: "Balsamiq Sans"; font-size: 30px;}
-.header .content .head_btn button { padding: 10px 20px; font-family: inherit; font-weight: 400; font-size: 18px; background: var(--main_color); border-color: var(--main_color);}
+.header .content .head_btn a,
+.header .content .head_btn button { 
+  padding: 10px 20px; font-family: inherit; 
+  font-weight: 400; font-size: 18px; background: var(--main_color); border-color: var(--main_color);}
 .header .content .head_btn button:last-child { background-color: transparent;}
 .header .content .head_btn button:last-child:hover { background: var(--main_color);}
 .header .overlay { opacity: 1;}
@@ -762,15 +765,33 @@ body.dark .Portofolio-filter button.active,
 .explain-by-video h2 p{ margin: 10px auto 20px; max-width: 55%; width: 180px;}
 .explain-by-video h2 p img{ width: 100%;}
 .explain-by-video .all { text-align: right; padding: 15px 0; margin-bottom: 50px;}
-.explain-by-video .content-links { padding: 0; background-color: rgb(54, 54, 54); overflow-y: auto; height: 423px; border-radius: 15px;}
-.explain-by-video .content-links .nav-pills .nav-link p { margin: 0; font-size: 17px; color: white;}
-.explain-by-video .content-links .nav-pills .nav-link { border-bottom: 1px solid white; border-radius: 0;}
+.explain-by-video .content-links {
+  padding: 0;
+  background-color: rgb(54, 54, 54);
+  background-color: rgb(16 26 52);
+  overflow-y: auto;
+  border-radius: 15px 0 0 15px;
+  -webkit-border-radius: 15px 0 0 15px;
+  -moz-border-radius: 15px 0 0 15px;
+  -ms-border-radius: 15px 0 0 15px;
+  -o-border-radius: 15px 0 0 15px;
+}
+.explain-by-video .content-links .nav-pills .nav-link p { margin: 0; font-size: 17px; color: white;     text-align: left;}
+.explain-by-video .content-links .nav-pills .nav-link { border-bottom: 1px solid white; border-radius: 0;     height: 100px;}
 .explain-by-video .content-links .nav-pills .nav-link:hover { background: rgb(9, 77, 121);}
 .explain-by-video .content-links .nav-pills .active { border-radius: 0; background: rgb(9, 77, 121);}
-.explain-by-video .nav-pills .nav-link .link-item img { max-width: 100%;}
-.explain-by-video .content-videos { padding: 0; border-left: 8px solid rgba(0, 0, 0, 0); border-radius: 15px;}
-.explain-by-video .content-videos .tab-content .fade { height: 423px;}
-.explain-by-video .content-videos .tab-content .fade video { border-radius: 15px 0 0 15px; -webkit-border-radius: 15px 0 0 15px; -moz-border-radius: 15px 0 0 15px; -ms-border-radius: 15px 0 0 15px; -o-border-radius: 15px 0 0 15px;}
+.explain-by-video .nav-pills .nav-link .link-item img { max-width: 100%;     height: 100%;}
+.explain-by-video .content-videos { height: 100%; padding: 0;}
+.explain-by-video .content-videos .tab-content{ height: 100%;}
+.explain-by-video .content-videos .tab-content .fade { height: 100%;}
+.explain-by-video .content-videos .tab-content .fade video {
+  border-radius: 0 15px 15px 0;
+  -webkit-border-radius: 0 15px 15px 0;
+  -moz-border-radius: 0 15px 15px 0;
+  -ms-border-radius: 0 15px 15px 0;
+  -o-border-radius: 0 15px 15px 0;
+  /*object-fit: fill;*/
+}
 
 /**********/
 .explain-by-video ::-webkit-scrollbar { width: 8px;}
