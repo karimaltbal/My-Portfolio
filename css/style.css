@@ -533,11 +533,7 @@ hr {
 }
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
-<<<<<<< HEAD
   .defintion .nav-pills .nav-link{ width: 100%;   font-weight: 100;  }
-=======
-  .defintion .nav-pills .nav-link{ width: 100%;}
->>>>>>> 23e3730acaba92824cf52633ad2127aa5df44c4c
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link { background: linear-gradient(547deg, #447081 0%, #ffffff00 100%) !important;}
 .flex-column { flex-direction: unset !important;}
@@ -834,6 +830,7 @@ body.dark .Portofolio-filter button.active,
 
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
+  .sub_projects .specifies { bottom: -300px}
   .sub_projects ul li { font-size: 12px;}
   .sub_projects .btn { margin-top: 1rem;}
 }
