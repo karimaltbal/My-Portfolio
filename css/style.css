@@ -776,7 +776,7 @@ body.dark .Portofolio-filter button.active,
 .sub_projects .specifies {
   position: absolute;
   width: 100%;
-  bottom: -270px;
+  bottom: -280px;
   height: 55vh;
   background: #07234c;
   padding: 10px;
@@ -831,7 +831,7 @@ body.dark .Portofolio-filter button.active,
 
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
-  .sub_projects .specifies { bottom: -300px}
+  .sub_projects .specifies { bottom: -310px}
   .sub_projects ul li { font-size: 12px;   font-weight: 100;}
   .sub_projects .btn { margin-top: 1rem;}
 }
