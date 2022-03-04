@@ -814,7 +814,8 @@ body.dark .Portofolio-filter button.active,
   list-style: none; 
   margin: 5px 5px 0; 
   font-size: 13px;
-  font-weight: 100;
+  font-weight: bold;
+  font-family: system-ui;
   font-style: normal; color: rgba(255, 255, 255, 0.72); 
   padding: 0 5px;}
 .sub_projects ul li:first-child { margin-left: 0;}
@@ -831,7 +832,7 @@ body.dark .Portofolio-filter button.active,
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
   .sub_projects .specifies { bottom: -300px}
-  .sub_projects ul li { font-size: 12px;}
+  .sub_projects ul li { font-size: 12px;   font-weight: 100;}
   .sub_projects .btn { margin-top: 1rem;}
 }
 
